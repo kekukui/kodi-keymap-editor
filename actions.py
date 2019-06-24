@@ -68,6 +68,8 @@ _actions = [
     "playercontrol(random)"   , "Toggle Random",
     "playercontrol(randomon)" , "Random On",
     "playercontrol(randomoff)", "Random Off",
+    "playercontrol(tempoup)"  , "Playback Speed Faster",
+    "playercontrol(tempodown)", "Playback Speed Slower",
     "createbookmark"          , "Create Bookmark",
     "createepisodebookmark"   , "Create Episode Bookmark",
     "togglestereomode"        , "Toggle 3D/Stereoscopic mode",
@@ -107,6 +109,8 @@ _actions = [
   ["Subtitle", [
     "showsubtitles"     , "Show Subtitles",
     "nextsubtitle"      , "Next Subtitle",
+    "browsesubtitle"    , "Browse Subtitle",
+    "cyclesubtitle"     , "Cycle Subtitle",
     "subtitledelay"     , "Delay",
     "subtitledelayminus", "Delay Minus",
     "subtitledelayplus" , "Delay Plus",
@@ -120,7 +124,13 @@ _actions = [
     "channeldown"           , "Channel Down",
     "previouschannelgroup"  , "Previous channel group",
     "nextchannelgroup"      , "Next channel group",
+    "playpvr"               , "PVR Play",
+    "playpvrtv"       , "PVR Play TV",
+    "playpvrradio"      , "PVR Play Radio",
     "record"                , "Record",
+    "togglecommskip"        , "Toggle Commskip",
+    "showtimerrule"         , "PVR Show Timer Rule"
+    "channelnumberseparator" ,"Channel Number Separator",
   ]],
 
   ["Item Actions", [
@@ -175,7 +185,8 @@ _actions = [
     "updatelibrary(music)", "Update Music Library",
     "cleanlibrary(video)",  "Clean Video Library",
     "cleanlibrary(music)", "Clean Music Library",
-    "codecinfo"         , "Show codec info",
+    "codecinfo"         , "Show Player process info",
+    "playerdebug"       , "Player debug",
     "screenshot"        , "Take screenshot",
     "reloadkeymaps"     , "Reload keymaps",
     "increasepar"       , "Increase PAR",
